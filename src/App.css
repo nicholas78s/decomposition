@@ -1,0 +1,115 @@
+#root {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.block {
+  border: 1px solid gray;
+  margin: 1em 1em;
+  display: flex;
+}
+.top_block {
+  display: flex;
+  align-items: center;
+}
+.news_list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.news_list .container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.news {
+  display: flex;
+  justify-content: flex-start;
+}
+.search_block {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.search {
+  display: flex;
+}
+.search input {
+  flex-grow: 5;
+}
+.search button {
+  flex-grow: 1;
+}
+.search_links {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 200px;
+}
+.news_captions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.news_caption {
+  font-size: 10pt;
+}
+.news_caption.main {
+  font-weight: bold;
+  font-size: 12pt;
+}
+div.logo_search_container1 {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+div.logo {
+  vertical-align: bottom;
+}
+.user_block {
+  border: 1px solid gray;
+  margin: 1em 1em;
+  min-width: 250px;
+  text-align: left;
+}
+.user_blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.broadcast {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  white-space: nowrap;
+}
+.broadcast .channel {
+  font-size: 8pt;
+  color: gray;
+  position: relative;
+  top: 6px;
+  padding-left: 6px;
+}
+.broadcast img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+.broadcast .time {
+  margin-right: 6px;
+}
+.popular {
+  display: flex;
+  justify-content: flex-start;
+}
+.popular .description {
+  font-size: 8pt;
+  color: gray;
+  position: relative;
+  top: 6px;
+  padding-left: 6px;
+}
+.banner {
+  width: 480px;
+  height: 80px;
+}
